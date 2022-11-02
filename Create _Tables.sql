@@ -1,10 +1,11 @@
+
 CREATE TABLE EmployeeInfo (
     Empid INT,
     Empfname CHAR(10),
     Emplname CHAR(10),
     Department CHAR(20),
     Project CHAR(3),
-    Address CHAR(4),
+    Address CHAR(20),
     Dob DATE,
     Gender CHAR(5)
     );
